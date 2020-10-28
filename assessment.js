@@ -4,6 +4,10 @@
   const assessmentButton = document.getElementById('assessment');
   const resultDivided = document.getElementById('result-area');
   const tweetDivided = document.getElementById('tweet-area');
+  
+  const hostName = document.location.host;
+  const getUserName = hostName.split(".")[0];
+  document.title = getUserName + "が作ったあなたのいいところ診断"
 
   /**
   * 指定した要素の子どもを全て除去する
