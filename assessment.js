@@ -8,7 +8,7 @@
   const hostName = document.location.host;
   const getUserName = hostName.split(".")[0];
   document.title = getUserName + "が作ったあなたのいいところ診断"
-
+  console.log(getUserName);
   /**
   * 指定した要素の子どもを全て除去する
   * @param {HTMLElement} element HTMLの要素
